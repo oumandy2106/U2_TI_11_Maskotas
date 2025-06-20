@@ -3,6 +3,12 @@ import java.util.List;
 public class Cliente {
 String nombre;
 
-List<Animal> animal = new ArrayList<>();
-Animal pom = new Animal ("Pomeranian", "");
+
+public void setNombre(String nombre){
+    this.nombre = nombre;
+}
+public String getNombre(){
+    return nombre;
+}
+
 }
